@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz zgłoszeniowy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+
+<body>
+    <form id="form-pierwszy" action="https://formspree.io/juniormax@onet.eu" method="POST">
+        <br><label>Imię:<br><input type="text" class="input-text" id="imie" name="imie"></label>
+
+        <label>Nazwisko:<br><input type="text" class="input-text" id="nazwisko" name="nazwisko"></label>
+
+        <label>E-mail:<br><input type="email" class="input-text" id="email" name="email"></label>
+
+        <label>Numer telefonu:<br><input type="text" class="input-text" id="telefon" name="telefon"></label>
+
+        <label>Miasto: <br><select name="miasto" id="miasto">
+                <option id="krakow" value="krakow">Kraków</option>
+                <option id="warszawa" value="warszawa">Warszawa</option>
+                <option id="gdansk" value="gdansk">Gdańsk</option>
+            </select></label>
+
+        <label>Płeć: </label><br>
+        <label for="kobieta">Kobieta</label>
+        <input type="radio" name="gender" id="kobieta" value="kobieta">
+        <label for="mezczyzna">Mężczyzna</label>
+        <input type="radio" name="gender" id="mezczyzna" value="mezczyzna">
+        
+
+        <label>Wiadomość: <br><textarea class="input-text" name="wiadomosc" placeholder="Tutaj wpisz wiadomość"></textarea></label>
+
+        <label><input type="checkbox" id="zgoda" name="zgoda"> Zgoda na dane osobowe</label>
+
+        <input type="submit" id="button" class="button" value="Wyślij">
+
+
+    </form>
+</body>
+
+</html>
