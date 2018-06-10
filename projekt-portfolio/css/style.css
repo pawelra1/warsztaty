@@ -1,0 +1,141 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    color: #291f1a;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+span {
+    color: #1ac056;
+    font-weight: normal;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}
+
+section {
+    padding: 0 80px 100px;
+}
+
+#nav-main {
+    position: fixed;
+    width: 100%;
+}
+
+#main-nav ul {
+    float: right; 
+    width: 100%;
+    text-align: right;
+}
+
+#main-nav li {
+    display: inline-block;
+    padding-right: 60px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 300;
+    color: #fff;
+}
+
+p {
+    margin-top: 0;
+}
+
+/*Header start*/
+
+#main-header {
+    background-image: url("../img/header-background.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#main-header .header-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+#main-header .header-content h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 5em;
+    color: #fff;
+    font-weight: 300;
+}
+
+#main-header .header-content p {
+    font-size: 2em;
+    color: #fff;
+    font-weight: 300;
+    margin: 0;
+}
+
+/*Header end*/
+
+/*Section start*/
+
+div .main-section {
+    background-color: red;
+    padding: 10px;
+    width: 100%;
+}
+
+div .omnie {
+    text-align: center;
+    width: 100%;
+}
+
+div .section-photo {
+    width: 40%;
+    float: left;
+    background-color: red;
+}
+
+
+div .section-photo img {
+    width: 60%;
+    height: 60%;
+    float: left;
+    transform: translate(50%);
+    padding-top: 20px;
+    
+}
+
+div .section-text {
+    width: 60%;
+    float: left;
+    padding: 40px;
+}
+
+/*Section end*/
+
+/*Skills start*/
+
+#skills > p {
+    text-align: center;
+}
+
+#skills .skills-icons {
+    text-align: center;
+}
+
+#skills .skills-icons figure{
+    display: inline-block;
+}
+
+/*Skills end*/

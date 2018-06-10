@@ -9,10 +9,6 @@ form label {
     display: block;
 }
 
-.inline {
-    display: inline;
-}
-
 input[type="text"], input[type="email"], select, textarea {
     background-color: #2b4a64;
     width: 300px;
