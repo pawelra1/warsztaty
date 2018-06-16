@@ -125,6 +125,9 @@ div .section-text {
 /*Section end*/
 
 /*Skills start*/
+#skills {
+    float: left;
+}
 
 #skills > p {
     text-align: center;
