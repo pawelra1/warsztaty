@@ -1,0 +1,58 @@
+html {
+    font-size: 10px;
+}
+
+.container {
+    background-color: blue;
+    overflow: hidden;
+    /*powoduje, że przy float rodzic przyjmuje wysokość dzieci, bez tego rodzic nie wyświetli dzieci*/
+}
+
+/*.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}*/
+
+.container-col,
+.container-col-right {
+    width: 50%;
+    /*    height: 100px;*/
+    float: left;
+    transition: all 1s;
+}
+
+.container-col {
+    background-color: rebeccapurple;
+}
+
+.container-col-right {
+    background-color: peru;
+}
+
+@media (max-width: 680px) {
+    .container-col,
+    .container-col-right {
+        float: none;
+        font-size: 2.5rem;
+        width: 100%;
+    }
+    .container-col {
+        background-color: yellow;
+    }
+}
+
+@media (max-width: 400px) {
+    html {
+        font-size: 15px;
+    }
+    .container-col-right {
+        opacity: 0;
+    }
+}
+
+/*Wstawia po linku adres strony, dla linków z .pdf*/
+a[href$='.pdf']::after {
+    content: attr(href);
+    font-size: 3rem;
+}
