@@ -1,0 +1,139 @@
+:root {
+    --main-font-color: #777;
+}
+
+/*body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+}*/
+#main-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+/* HEADER - start */
+
+#main-header {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/header/pictures_on_the_wall.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: #0ed8d6;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #0ed8d6;
+}
+
+#main-header .header-content {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#main-header .header-content h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 4em;
+    color: #fff;
+    font-weight: 300;
+}
+
+#main-header .header-content h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2em;
+    color: #fff;
+    font-weight: 300;
+}
+.btn-color {
+    color: #fff;
+    background-color: #0ed8d6;
+    border: none;
+}
+
+.btn-color:hover {
+    color: #000;
+    background-color: #0ed8d6;
+    border: none;
+}
+
+.btn-color:focus {
+    color: #000;
+    background-color: #fff;
+    border: none;
+}
+
+
+/* SECTION - start */
+#main-section {
+    background-color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.fas {
+    color: #fff;
+    font-size: 4rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+
+
+@keyframes obrot {
+0% {
+transform: rotate(0deg);
+}
+100% { 
+transform: rotate(360deg);
+}       
+}
+
+
+.rotate:hover {
+    animation-name: obrot;
+    animation-duration: 1s;
+    transition-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+
+
+figure {
+	width: 120px;
+	height: 120px;
+	background-color: #0ed8d6;
+	border-radius: 100%;
+	margin: 40px auto 0;
+}
+
+/* PORTFOLIO - start */
+#main-portfolio {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#main-portfolio .background-white {
+    background-color: #fff;
+}
